@@ -14,8 +14,11 @@ public class ServiceOne {
 	
 	public void andHereAlso() {
 		System.out.println("and here also");
-		System.out.println("and here also2");
 		System.out.println("this will cause a conflict....");
 		System.out.println("msg from dev_branch_v1");
+	}
+	
+	public void newDevMethod() {
+		System.out.println("new dev method");
 	}
 }
