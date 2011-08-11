@@ -25,4 +25,8 @@ public class ServiceOne {
 	public void newDevMethodForBranch() {
 		System.out.println("new dev method for dev_branch_v2");
 	}
+	
+	public void newDevMethod3() {
+		System.out.println("new dev method for dev_branch_v3");
+	}
 }
