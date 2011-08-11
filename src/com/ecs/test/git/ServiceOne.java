@@ -15,18 +15,18 @@ public class ServiceOne {
 	public void andHereAlso() {
 		System.out.println("and here also");
 		System.out.println("this will cause a conflict....");
-		System.out.println("msg from dev_branch_v1");
+		System.out.println("cccccccccccccccccccccccccccmsg from dev_branch_v1");
 	}
 	
 	public void newDevMethod() {
 		System.out.println("new dev method");
 	}
 	
-	public void newDevMethodForBranch() {
-		System.out.println("new dev method for dev_branch_v2");
-	}
-	
 	public void newDevMethod3() {
 		System.out.println("new dev method for dev_branch_v3");
+	}
+	
+	public void newDevMethod4() {
+		System.out.println("new dev method for dev_branch_v4 - removed v2");
 	}
 }
